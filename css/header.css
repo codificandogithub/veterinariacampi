@@ -1,0 +1,88 @@
+/* reset de elementos html*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 16px; /*1rem*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;/*Tipo de letra*/
+}
+
+#header{
+    /*background-color: rgb(4, 151, 78);*/
+    border-bottom: 0.2rem solid rgb(255, 115, 0);
+    height: 80px;
+    position:fixed;
+    width:100%;
+    z-index:111;
+}
+
+.container{
+   /* background-color: aqua;*/
+    margin: auto;
+    max-width: 1200px;
+    width: 95%;
+}
+
+#header__logo{
+    width: 220px;
+}
+
+.container--h100{
+    height: 100%;
+}
+
+
+/**Elementos flexibles o cajas flexibles**/
+.flex{
+    display: flex;
+}
+
+.flex--izqder{
+    justify-content: space-between;
+}
+
+.flex--centrarv{
+    align-items: center;
+}
+
+
+.flex--gap{
+   gap:1rem; 
+}
+
+
+/*Colores de texto y fondo utilizados*/
+.text--blue{
+    color: #0095e5;
+}
+
+.text--white{
+    color: white;
+}
+
+.fondo--blue{
+    background-color: #0095e5;
+}
+
+.fondo--white{
+    background-color: white;
+}
+
+.lista__icon{
+    border: 0.15rem solid #0095e5;
+    border-radius: 50%;
+    color: #0095e5;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+
+
+
+
+
+
+
