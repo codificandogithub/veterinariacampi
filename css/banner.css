@@ -1,0 +1,41 @@
+.banner{
+    background-image: url("/img/paginaInicial/fondo_slide1.jpg");
+    background-size: cover;      
+    height: 600px;
+    position: relative;
+}
+
+.banner__publicidad{
+    /* text-align: center; */
+    width: 800px;
+    z-index: 1;
+    
+}
+
+.titulo{
+    font-size: 2.5rem;
+}
+
+.banner--sub3{
+    font-size: 1.8rem;
+}
+
+.btn{
+    color: white;
+    border-radius: 0.3rem;
+    display: inline-block;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    padding: 1rem 2.5rem;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #0095e5;
+}
+
+.banner__dog{
+    width: 350px;
+   
+}

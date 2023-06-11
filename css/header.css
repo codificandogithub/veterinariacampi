@@ -11,7 +11,7 @@ html{
 }
 
 #header{
-    /*background-color: rgb(4, 151, 78);*/
+    background-color: rgba(255,255,255,0.9);
     border-bottom: 0.2rem solid rgb(255, 115, 0);
     height: 80px;
     position:fixed;
@@ -44,9 +44,19 @@ html{
     justify-content: space-between;
 }
 
+.flex--der{
+    justify-content: right;
+}
+
 .flex--centrarv{
     align-items: center;
 }
+
+.flex--centrarh{
+    justify-content: center;
+}
+
+
 
 
 .flex--gap{
@@ -78,6 +88,32 @@ html{
     font-size: 1.5rem;
     padding: 0.5rem;
 }
+
+.separador--top{
+    padding-top: 80px;
+}
+
+/**Navegacion**/
+.nav{
+    height: 60px;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    padding: 0 0.3rem;
+    
+}
+
+.nav a:hover{
+    border-bottom: .2rem solid white;
+}
+
+.nav__lista{
+    list-style-type: none;
+    font-weight: 650;
+}
+
 
 
 
