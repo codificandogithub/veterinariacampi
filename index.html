@@ -1,73 +1,134 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/banner.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/banner.css" />
+    <link rel="stylesheet" href="css/bienvenida.css">
 
     <title>Inicio</title>
-</head>
-<body>
-  <!--Estructura del header-->    
-  <header id="header">
-    <div class="container container--h100 flex flex--izqder flex--centrarv">
-      <a href="#">
-        <img src="img/paginaInicial/logo.svg" alt="logo.svg" id="header__logo" >
-      </a> 
+  </head>
+  <body>
+    <!--Estructura del header-->
+    <header id="header">
+      <div class="container container--h100 flex flex--izqder flex--centrarv">
+        <a href="#">
+          <img
+            src="img/paginaInicial/logo.svg"
+            alt="logo.svg"
+            id="header__logo"
+          />
+        </a>
 
-      <ul class="flex flex--gap">
-        <li class="flex flex--gap">
-          <i class="lista__icon fa-solid fa-phone"></i>
-          <p>
-            <strong>Llamános:</strong><br>
-            511-388-7814
-          </p>
-        </li>
+        <ul class="flex flex--gap">
+          <li class="flex flex--gap">
+            <i class="lista__icon fa-solid fa-phone"></i>
+            <p>
+              <strong>Llamános:</strong><br />
+              511-388-7814
+            </p>
+          </li>
 
-        <li class="flex flex--gap">
-          <i class="lista__icon fa-solid fa-clock"></i>
-          <p>
-            <strong>Horarios:</strong><br>
-            Lun-Vie: 9am-6pm; Sab: 10am-1pm
-          </p>
-        </li>  
-              
-      </ul>
-    </div>
-  </header>
-  <div class="separador--top "></div>
-  <!--Navegacion-->
-  <nav class="nav fondo--blue">
-    <div class="container container--h100 flex flex--centrarv flex--der">
-      <ul class="nav__lista flex flex--gap">
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Nosotros</a></li>
-        <li><a href="#">Servicios</a></li>
-        <li><a href="#">Galería</a></li>
-        <li><a href="#">Contacto</a></li>
-      </ul>
-    </div>    
-  </nav>
-  <!--Banner-->
-  <section class="banner">
+          <li class="flex flex--gap">
+            <i class="lista__icon fa-solid fa-clock"></i>
+            <p>
+              <strong>Horarios:</strong><br />
+              Lun-Vie: 9am-6pm; Sab: 10am-1pm
+            </p>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div class="separador--top"></div>
+    <!--Navegacion-->
+    <nav class="nav fondo--blue">
+      <div class="container container--h100 flex flex--centrarv flex--der">
+        <ul class="nav__lista flex flex--gap">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Galería</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!--Banner-->
+    <section class="banner">
       <div class="container container--h100 flex flex--centrarv flex--centrarh">
         <div class="banner__publicidad text--white">
           <hgroup>
             <h3 class="banner--sub3">Bienvenidos a MasterPets</h3>
             <h1 class="titulo">AQUÍ AMAMOS A TU MASCOTA</h1>
-            <h3 class="banner--sub3">Contamos con la más completa linea de soluciones, a un precio accesible.</h3>
+            <h3 class="banner--sub3">
+              Contamos con la más completa linea de soluciones, a un precio
+              accesible.
+            </h3>
           </hgroup>
-          <a href="" class="btn fondo--blue">CONTÁCTANOS</a>          
+          <a href="" class="btn fondo--blue">CONTÁCTANOS</a>
         </div>
 
         <figure>
-          <img src="img/paginaInicial/dog_1.png" alt="" class="banner__dog">
+          <img src="img/paginaInicial/dog_1.png" alt="" class="banner__dog" />
         </figure>
-      </div>  
-  </section>
-        
-</body>
+      </div>
+    </section>
+
+    <!--Informacion principal-->
+    <main>
+      <section class="bienvenida container">
+        <div class="container__bienvenida flex flex--gap flex--centrarh separador">
+          <figure>
+            <img
+              src="img/paginaInicial/veterinaria_perro.jpg"
+              alt=""
+              class="bienvenida__foto"
+            />
+          </figure>
+          <article class="bienvenida__conocenos">
+            <hgroup>
+              <h2 class="subtitulo--2 text--blue">AMAMOS A TUS MASCOTAS</h2>
+              <h3 class="subtitulo--3 text--blue">
+                La más completa linea de soluciones; para el concentido de la
+                casa.
+              </h3>
+            </hgroup>
+
+            <div class="bienvenida__informacion flex flex--gap">
+              <p>
+                En MasterPets, amamos los animales y entendemos que tu mascota
+                es parte de tu familia, es por ello que le brindamos un servicio
+                de calidad, las 24 horas del día los 7 días de la semana.
+              </p>
+
+              <p>
+                Mucho más que un veterinario de la Clínica Veterinaria
+                MasterPets es un espacio que tiene como objetivo integrar a las
+                personas, que, como nosotros, amamos y respetamos a los animales
+                y así proporcionar servicios de calidad a su mascota.
+              </p>
+
+              <p>
+                No olvide informarse de todas nuestras ofertas y promociones a
+                través de nuestras Pagina en Facebook y nuestra cuenta de
+                Twitter. Y por supuesto, si desea saber más sobre su mascota y
+                la profesión veterinaria no dude en consultar nuestro blog.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!--Footer o pie de pagina-->
+    <footer></footer>
+  </body>
 </html>
