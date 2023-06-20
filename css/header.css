@@ -114,6 +114,16 @@ html{
     font-weight: 650;
 }
 
+/**Alineaciones de texto**/
+
+.centrar--text{
+    text-align: center;
+}
+
+.justificar--text{
+    text-align: justify;
+}
+
 
 
 
